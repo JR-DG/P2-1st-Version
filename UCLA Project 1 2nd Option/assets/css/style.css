@@ -1,0 +1,141 @@
+
+
+/* CSS */
+
+
+
+html, body {
+background-color: #2196F3;
+  
+  
+}
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+nav {
+  flex: 1 0 auto;
+}
+  
+h1 {
+   color: white;
+   font-style: bold;
+ } 
+
+container-box {
+  
+    width: 300px;
+    height: 300px;
+    border: 3px solid #fff;
+    text-align: center;
+    
+  }
+
+.section {
+  width:300px;
+    height: 300px;
+    border: 3px solid #ffffff;
+    padding-bottom: 0%;  
+}   
+ 
+
+
+.content.fluid.container{
+  background-color: #2196F3; 
+  position: relative;
+  background-position: center;
+  font-size: 20px;
+   
+ 
+}
+
+
+
+/* Icons */
+
+
+
+#ac {
+  color: #ee6e73
+}
+
+#brightness {
+  color: #fff;
+}
+  
+#h31 {
+  text-align: center;
+  color: white;
+
+}  
+
+
+
+/* These are all The Buttons ID's */
+
+#drop1 {
+  align-content: right;
+}
+
+#drop2 {
+  align-content: center: 
+  text-align: center;
+}
+   
+    
+#drop3 {
+  align-content: left: 
+}
+
+
+
+/* These are all The Buttons Classes */
+
+
+.btn, .btn-large, .btn-small {
+  text-decoration: none;
+  color: #ee6e73;
+  background-color: #ffffff;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+  cursor: pointer;
+  display: inline;
+  max-block-size: inherit;
+  padding: 10px;
+
+}
+
+
+.btn, .btn-large, .btn-small, .btn-floating, .btn-large, .btn-small, .btn-flat {
+  font-size: 14px;
+  outline: 0;
+  max-block-size: inherit;
+}
+
+.btn, .btn-large, .btn-small, .btn-flat {
+  border: none;
+  border-radius: 2px;
+  max-block-size: inherit;
+}
+
+.waves-effect {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  vertical-align: middle;
+  z-index: 1;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+
+
+
+
+
+
